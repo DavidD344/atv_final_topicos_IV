@@ -1,0 +1,30 @@
+| Dataset | Sample (%) | Best variant    | Best K | MAPE (%) | Std (%) | Sample size |
+| ------- | ---------- | --------------- | ------ | -------- | ------- | ----------- |
+| Apache  | 10         | K-means Hamming | 8      | 18.18    | 2.77    | 19          |
+| Apache  | 20         | K-means Hamming | 5      | 15.49    | 0.83    | 38          |
+| Apache  | 30         | K-means default | 50     | 15.02    | 0.42    | 58          |
+| Apache  | 40         | K-means default | 29     | 15.01    | 0.53    | 77          |
+| Apache  | 50         | K-means default | 10     | 14.83    | 0.55    | 96          |
+| Apache  | 60         | K-means default | 10     | 14.60    | 0.61    | 115         |
+| Apache  | 70         | K-means default | 10     | 14.29    | 0.69    | 134         |
+| BDBC    | 10         | K-means default | 20     | 164.26   | 12.18   | 256         |
+| BDBC    | 20         | K-means default | 29     | 243.27   | 33.65   | 512         |
+| BDBC    | 30         | K-means default | 20     | 261.01   | 5.18    | 768         |
+| BDBC    | 40         | K-means default | 32     | 285.90   | 36.54   | 1024        |
+| BDBC    | 50         | K-means default | 50     | 297.54   | 29.81   | 1280        |
+| BDBC    | 60         | K-means default | 20     | 298.66   | 8.98    | 1536        |
+| BDBC    | 70         | K-means default | 24     | 310.23   | 42.02   | 1792        |
+| BDBJ    | 10         | K-means default | 6      | 32.66    | 12.82   | 18          |
+| BDBJ    | 20         | K-means Hamming | 5      | 36.00    | 3.66    | 36          |
+| BDBJ    | 30         | K-means Hamming | 8      | 34.95    | 1.51    | 54          |
+| BDBJ    | 40         | K-means Hamming | 8      | 34.83    | 0.86    | 72          |
+| BDBJ    | 50         | K-means Hamming | 8      | 35.15    | 1.32    | 90          |
+| BDBJ    | 60         | K-means Hamming | 32     | 35.77    | 2.18    | 108         |
+| BDBJ    | 70         | K-means Hamming | 19     | 36.21    | 2.90    | 126         |
+| LLVM    | 10         | K-means default | 44     | 2.38     | 0.20    | 102         |
+| LLVM    | 20         | K-means default | 22     | 2.36     | 0.17    | 205         |
+| LLVM    | 30         | K-means Hamming | 27     | 2.36     | 0.07    | 307         |
+| LLVM    | 40         | K-means Hamming | 25     | 2.37     | 0.07    | 410         |
+| LLVM    | 50         | K-means Hamming | 40     | 2.36     | 0.06    | 512         |
+| LLVM    | 60         | K-means default | 36     | 2.34     | 0.07    | 614         |
+| LLVM    | 70         | K-means default | 28     | 2.24     | 0.11    | 717         |

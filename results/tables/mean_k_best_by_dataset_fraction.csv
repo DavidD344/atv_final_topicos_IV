@@ -1,0 +1,29 @@
+Dataset,Sample (%),Best method,MAPE (%),Std (%),Sample size
+Apache,10,Diversity,14.33,0.00,19
+Apache,20,Diversity,15.78,0.00,38
+Apache,30,Diversity,14.73,0.00,58
+Apache,40,Diversity,14.91,0.00,77
+Apache,50,Diversity,13.75,0.00,96
+Apache,60,Diversity,14.21,0.00,115
+Apache,70,Diversity,13.73,0.00,134
+BDBC,10,K-means default (mean K),198.95,18.18,256
+BDBC,20,K-means default (mean K),265.70,18.08,512
+BDBC,30,K-means default (mean K),300.87,36.14,768
+BDBC,40,K-means default (mean K),326.31,53.41,1024
+BDBC,50,K-means default (mean K),348.94,70.30,1280
+BDBC,60,K-means default (mean K),364.96,80.15,1536
+BDBC,70,K-means default (mean K),377.19,87.17,1792
+BDBJ,10,K-means default (mean K),39.53,3.49,18
+BDBJ,20,Diversity,32.07,0.00,36
+BDBJ,30,Diversity,31.94,0.00,54
+BDBJ,40,Diversity,33.83,0.00,72
+BDBJ,50,Diversity,33.75,0.00,90
+BDBJ,60,Diversity,33.15,0.00,108
+BDBJ,70,Diversity,35.04,0.00,126
+LLVM,10,Diversity,2.34,0.00,102
+LLVM,20,K-means Hamming (mean K),2.43,0.02,205
+LLVM,30,Diversity,2.28,0.00,307
+LLVM,40,K-means Hamming (mean K),2.40,0.01,410
+LLVM,50,K-means Hamming (mean K),2.40,0.01,512
+LLVM,60,K-means Hamming (mean K),2.39,0.01,614
+LLVM,70,K-means default (mean K),2.30,0.06,717

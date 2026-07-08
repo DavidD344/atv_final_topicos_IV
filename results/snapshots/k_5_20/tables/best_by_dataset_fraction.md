@@ -1,0 +1,42 @@
+| Dataset | Sample (%) | Best method            | MAPE (%) | Std (%) | Sample size |
+| ------- | ---------- | ---------------------- | -------- | ------- | ----------- |
+| Apache  | 10         | Diversity              | 14.33    | 0.00    | 19          |
+| Apache  | 20         | K-means Hamming (K=5)  | 15.49    | 0.83    | 38          |
+| Apache  | 30         | Diversity              | 14.73    | 0.00    | 58          |
+| Apache  | 40         | Diversity              | 14.91    | 0.00    | 77          |
+| Apache  | 50         | Diversity              | 13.75    | 0.00    | 96          |
+| Apache  | 60         | Diversity              | 14.21    | 0.00    | 115         |
+| Apache  | 70         | Diversity              | 13.73    | 0.00    | 134         |
+| Apache  | 80         | Diversity              | 11.87    | 0.00    | 154         |
+| Apache  | 90         | K-means default (K=12) | 12.96    | 2.07    | 173         |
+| Apache  | 100        | K-means default (K=17) | 8.13     | 5.40    | 191         |
+| BDBC    | 10         | K-means default (K=20) | 164.26   | 12.18   | 256         |
+| BDBC    | 20         | K-means default (K=20) | 249.59   | 4.37    | 512         |
+| BDBC    | 30         | K-means default (K=20) | 261.01   | 5.18    | 768         |
+| BDBC    | 40         | K-means default (K=20) | 296.83   | 7.57    | 1024        |
+| BDBC    | 50         | K-means default (K=19) | 325.35   | 27.12   | 1280        |
+| BDBC    | 60         | K-means default (K=20) | 298.66   | 8.98    | 1536        |
+| BDBC    | 70         | K-means default (K=20) | 325.14   | 9.41    | 1792        |
+| BDBC    | 80         | K-means default (K=20) | 301.83   | 8.41    | 2048        |
+| BDBC    | 90         | K-means default (K=20) | 318.21   | 10.41   | 2304        |
+| BDBC    | 100        | K-means default (K=7)  | 186.70   | 262.53  | 2559        |
+| BDBJ    | 10         | K-means default (K=5)  | 32.29    | 13.72   | 18          |
+| BDBJ    | 20         | Diversity              | 32.07    | 0.00    | 36          |
+| BDBJ    | 30         | Diversity              | 31.94    | 0.00    | 54          |
+| BDBJ    | 40         | Diversity              | 33.83    | 0.00    | 72          |
+| BDBJ    | 50         | Diversity              | 33.75    | 0.00    | 90          |
+| BDBJ    | 60         | Diversity              | 33.15    | 0.00    | 108         |
+| BDBJ    | 70         | Diversity              | 35.04    | 0.00    | 126         |
+| BDBJ    | 80         | K-means default (K=16) | 36.31    | 2.64    | 144         |
+| BDBJ    | 90         | K-means Hamming (K=19) | 36.38    | 4.10    | 162         |
+| BDBJ    | 100        | K-means random (K=15)  | 33.53    | 16.66   | 179         |
+| LLVM    | 10         | Diversity              | 2.34     | 0.00    | 102         |
+| LLVM    | 20         | K-means default (K=20) | 2.38     | 0.18    | 205         |
+| LLVM    | 30         | Diversity              | 2.28     | 0.00    | 307         |
+| LLVM    | 40         | K-means Hamming (K=14) | 2.39     | 0.08    | 410         |
+| LLVM    | 50         | K-means Hamming (K=11) | 2.38     | 0.05    | 512         |
+| LLVM    | 60         | K-means Hamming (K=13) | 2.38     | 0.07    | 614         |
+| LLVM    | 70         | K-means default (K=14) | 2.26     | 0.13    | 717         |
+| LLVM    | 80         | Diversity              | 1.63     | 0.00    | 819         |
+| LLVM    | 90         | Diversity              | 1.47     | 0.00    | 922         |
+| LLVM    | 100        | Diversity              | 0.07     | 0.00    | 1023        |
