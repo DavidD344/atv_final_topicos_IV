@@ -17,14 +17,14 @@ Para cada metodo de sampling, selecionamos uma parte das variantes para treino e
 
 ## Datasets
 
-Foram usados 4 datasets reais do projeto `AutoML-SPL-Datasets`:
+Foram usados 4 datasets reais amplamente utilizados na literatura:
 
 - Apache;
 - BDBC;
 - BDBJ;
 - LLVM.
 
-O codigo antigo do projeto original foi ignorado. Apenas os CSVs preparados foram usados como entrada.
+Cada dataset foi usado como matriz de features binarias com uma coluna alvo `Measured_Value`.
 
 ## Tamanhos de Amostra
 

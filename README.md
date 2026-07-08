@@ -26,8 +26,6 @@ Todos os metodos treinam o mesmo modelo de predicao.
 - Metodos estocasticos: 30 repeticoes.
 - Teste: variantes nao selecionadas para treino.
 
-Os CSVs de entrada ficam em `AutoML-SPL-Datasets`. O codigo antigo dessa pasta e ignorado; usamos apenas os datasets.
-
 ## Como rodar
 
 Instale/execute com `uv`.
