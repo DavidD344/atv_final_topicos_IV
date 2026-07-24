@@ -2,7 +2,7 @@
 
 Este projeto compara estrategias de **sampling de variantes** para predicao de propriedades nao funcionais (NFPs) em Software Product Lines (SPLs).
 
-O foco principal e avaliar se **K-means pode ser usado como metodo de sampling**. Nao buscamos encontrar automaticamente o K otimo; testamos uma ampla faixa de valores de K para observar o potencial do metodo em diferentes cenarios.
+O foco principal e avaliar se **K-means pode ser usado como metodo de sampling em SPLs**. x
 
 ## O que e comparado
 
@@ -13,7 +13,7 @@ Metodos avaliados:
 - **K-means default:** usa K-means padrao com distancia Euclidiana, agrupa variantes e alterna entre clusters.
 - **K-means Hamming:** usa o mesmo K-means, mas ordena variantes dentro de cada cluster por diversidade Hamming.
 
-Todos os metodos treinam o mesmo modelo de predicao.
+Todos os metodos treinam o mesmo modelo de predição simples.
 
 ## Configuracao do experimento
 
