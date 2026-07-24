@@ -2,7 +2,7 @@
 
 Este projeto compara estrategias de **sampling de variantes** para predicao de propriedades nao funcionais (NFPs) em Software Product Lines (SPLs).
 
-O foco principal e avaliar se **K-means pode ser usado como metodo de sampling em SPLs**. x
+O foco principal e avaliar se **K-means pode ser usado como metodo de sampling em SPLs**.
 
 ## O que e comparado
 
